@@ -1,7 +1,7 @@
 {
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://github.com/ey-apac-mufj/vc-schema-repo/blob/main/rspo-certificate/rspo-certificate.jsonld"
+      "jsonLdContext": "https://raw.githubusercontent.com/ey-apac-mufj/vc-schema-repo/main/rspo-certificate/rspo-certificate.jsonld"
     },
     "version": "1.0",
     "type": "RSPOCERTIFICATE"
