@@ -1,0 +1,94 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "RSPOCERTIFICATE": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:bf1996a2-9162-46fe-a1f6-7be35e4a9d22#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "name": {
+                        "@id": "polygon-vocab:name",
+                        "@type": "xsd:string"
+                    },
+                    "location": {
+                        "@context": {
+                            "region": {
+                                "@id": "polygon-vocab:region",
+                                "@type": "xsd:string"
+                            },
+                            "country": {
+                                "@id": "polygon-vocab:country",
+                                "@type": "xsd:string"
+                            }
+                        },
+                        "@id": "polygon-vocab:location"
+                    },
+                    "certificationDate": {
+                        "@id": "polygon-vocab:certificationDate",
+                        "@type": "xsd:dateTime"
+                    },
+                    "certificationValidity": {
+                        "@context": {
+                            "startDate": {
+                                "@id": "polygon-vocab:startDate",
+                                "@type": "xsd:dateTime"
+                            },
+                            "endDate": {
+                                "@id": "polygon-vocab:endDate",
+                                "@type": "xsd:dateTime"
+                            }
+                        },
+                        "@id": "polygon-vocab:certificationValidity"
+                    },
+                    "farmSize": {
+                        "@id": "polygon-vocab:farmSize",
+                        "@type": "xsd:string"
+                    },
+                    "annualProduction": {
+                        "@id": "polygon-vocab:annualProduction",
+                        "@type": "xsd:string"
+                    },
+                    "speciesUsed": {
+                        "@id": "polygon-vocab:speciesUsed",
+                        "@type": "xsd:string"
+                    },
+                    "noDeforestationPractices": {
+                        "@id": "polygon-vocab:noDeforestationPractices",
+                        "@type": "xsd:boolean"
+                    },
+                    "habitatProtection": {
+                        "@id": "polygon-vocab:habitatProtection",
+                        "@type": "xsd:boolean"
+                    },
+                    "fairLaborPractices": {
+                        "@id": "polygon-vocab:fairLaborPractices",
+                        "@type": "xsd:boolean"
+                    },
+                    "chemicalUsage": {
+                        "@id": "polygon-vocab:chemicalUsage",
+                        "@type": "xsd:string"
+                    },
+                    "oilQuality": {
+                        "@context": {
+                            "acidity": {
+                                "@id": "polygon-vocab:acidity",
+                                "@type": "xsd:string"
+                            },
+                            "color": {
+                                "@id": "polygon-vocab:color",
+                                "@type": "xsd:string"
+                            }
+                        },
+                        "@id": "polygon-vocab:oilQuality"
+                    }
+                },
+                "@id": "urn:uuid:59d1a797-8726-40b7-b6a2-6cd825ef9866"
+            }
+        }
+    ]
+}
