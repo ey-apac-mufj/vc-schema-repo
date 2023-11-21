@@ -1,7 +1,7 @@
 {
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://example.com/path/to/file/context.jsonld"
+            "jsonLdContext": "https://raw.githubusercontent.com/ey-apac-mufj/vc-schema-repo/main/RSPOVCSchema.jsonld"
         },
         "version": "1.0",
         "type": "rspovc"
