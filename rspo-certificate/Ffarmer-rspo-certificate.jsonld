@@ -1,0 +1,43 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "FARMERRSPO": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:673fccf8-c378-4306-8d66-5bbb1b6cf4ad#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "smallHolderId": {
+                        "@id": "polygon-vocab:smallHolderId",
+                        "@type": "xsd:string"
+                    },
+                    "rspoId": {
+                        "@id": "polygon-vocab:rspoId",
+                        "@type": "xsd:string"
+                    },
+                    "landPolygon": {
+                        "@id": "polygon-vocab:landPolygon",
+                        "@type": "xsd:string"
+                    },
+                    "plantationLegality": {
+                        "@id": "polygon-vocab:plantationLegality",
+                        "@type": "xsd:string"
+                    },
+                    "hectaresPlantedArea": {
+                        "@id": "polygon-vocab:hectaresPlantedArea",
+                        "@type": "xsd:double"
+                    },
+                    "plantingYear": {
+                        "@id": "polygon-vocab:plantingYear",
+                        "@type": "xsd:integer"
+                    }
+                },
+                "@id": "urn:uuid:823ccabf-9594-4fb8-a55c-cb4e4f7d6951"
+            }
+        }
+    ]
+}
