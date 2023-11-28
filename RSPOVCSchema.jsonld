@@ -1,0 +1,39 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "rspovc": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:426cbc54-d64d-4b0b-bfc1-4dda89958814#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "name": {
+                        "@id": "polygon-vocab:name",
+                        "@type": "xsd:string"
+                    },
+                    "farm-size": {
+                        "@id": "polygon-vocab:farm-size",
+                        "@type": "xsd:integer"
+                    },
+                    "quality": {
+                        "@id": "polygon-vocab:quality",
+                        "@type": "xsd:integer"
+                    },
+                    "location": {
+                        "@id": "polygon-vocab:location",
+                        "@type": "xsd:string"
+                    },
+                    "RSPO-ID": {
+                        "@id": "polygon-vocab:RSPO-ID",
+                        "@type": "xsd:string"
+                    }
+                },
+                "@id": "urn:uuid:0770d5e8-81c7-4cda-a6d6-19005f08c604"
+            }
+        }
+    ]
+}
