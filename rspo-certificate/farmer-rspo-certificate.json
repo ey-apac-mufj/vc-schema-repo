@@ -1,7 +1,7 @@
 {
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/ey-apac-mufj/vc-schema-repo/main/RSPOVCSchema.jsonld"
+      "jsonLdContext": "https://raw.githubusercontent.com/ey-apac-mufj/vc-schema-repo/main/rspo-certificate/farmer-rspo-certificate.jsonld"
     },
     "version": "1.0",
     "type": "FARMERRSPO"
