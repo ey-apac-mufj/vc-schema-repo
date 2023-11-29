@@ -3,7 +3,7 @@
     "uris": {
       "jsonLdContext": "https://raw.githubusercontent.com/ey-apac-mufj/vc-schema-repo/main/rspo-certificate/farmer-rspo-certificate.jsonld"
     },
-    "version": "1.0",
+    "version": "1.0.1",
     "type": "FARMERRSPO"
   },
   "$schema": "https://json-schema.org/draft/2020-12/schema",
