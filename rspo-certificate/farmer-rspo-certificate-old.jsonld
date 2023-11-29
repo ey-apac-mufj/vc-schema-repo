@@ -9,7 +9,7 @@
                 "@context": {
                     "@propagate": true,
                     "@protected": true,
-                    "polygon-vocab": "urn:uuid:b1e338bd-00d4-4c6d-b640-62a5fe899cbd#",
+                    "polygon-vocab": "urn:uuid:673fccf8-c378-4306-8d66-5bbb1b6cf4ad#",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
                     "smallHolderId": {
                         "@id": "polygon-vocab:smallHolderId",
@@ -27,16 +27,16 @@
                         "@id": "polygon-vocab:plantationLegality",
                         "@type": "xsd:string"
                     },
+                    "hectaresPlantedArea": {
+                        "@id": "polygon-vocab:hectaresPlantedArea",
+                        "@type": "xsd:double"
+                    },
                     "plantingYear": {
                         "@id": "polygon-vocab:plantingYear",
                         "@type": "xsd:integer"
-                    },
-                    "totalHectares": {
-                        "@id": "polygon-vocab:totalHectares",
-                        "@type": "xsd:string"
                     }
                 },
-                "@id": "urn:uuid:c865aac1-9a9d-4318-8012-0b3adc55cb4f"
+                "@id": "urn:uuid:823ccabf-9594-4fb8-a55c-cb4e4f7d6951"
             }
         }
     ]

@@ -14,6 +14,12 @@
       "description": "Stores the data of the credential",
       "title": "Credential subject",
       "properties": {
+        "id": {
+          "description": "Stores the DID of the subject that owns the credential",
+          "title": "Credential subject ID",
+          "format": "uri",
+          "type": "string"
+        },
         "smallHolderId": {
           "description": "Small Holder Id",
           "title": "Small Holder Id",
@@ -34,21 +40,15 @@
           "title": "Plantation Legality",
           "type": "string"
         },
+        "hectaresPlantedArea": {
+          "description": "Hectares Planted Area",
+          "title": "Hectares Planted Area",
+          "type": "number"
+        },
         "plantingYear": {
           "description": "Planting Year",
           "title": "Planting Year",
           "type": "integer"
-        },
-        "id": {
-          "description": "Stores the DID of the subject that owns the credential",
-          "title": "Credential subject ID",
-          "format": "uri",
-          "type": "string"
-        },
-        "totalHectares": {
-          "description": "Total Hectares",
-          "title": "Total Hectares",
-          "type": "string"
         }
       },
       "required": [],
